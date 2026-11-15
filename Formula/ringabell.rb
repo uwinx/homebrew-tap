@@ -1,13 +1,13 @@
 class Ringabell < Formula
   desc "Fire confetti, play a sound, and send notifications from the terminal"
   homepage "https://github.com/uwinx/ringabell"
-  version "1.2.0"
+  version "1.3.0"
   license "MIT"
 
   depends_on :macos
 
-  url "https://github.com/uwinx/ringabell/releases/download/v1.2.0/ringabell-macos-arm64.tar.gz"
-  sha256 "2ae4985d364eeb110a5ea08862add984e1d960d35527eddb11002e9f963d3d00"
+  url "https://github.com/uwinx/ringabell/releases/download/v1.3.0/ringabell-macos-arm64.tar.gz"
+  sha256 "855bd2280389fdf72756f5c20e6b814bf4f31432a2d6436ee0f80756174050dc"
 
   livecheck do
     url :stable
